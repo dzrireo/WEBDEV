@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-kaliwa {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links li {
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav-kanan {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.store-link {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-in-button {
+    background-color: transparent;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 50px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.join-now-button {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
